@@ -1,7 +1,9 @@
-import java.util.ArrayList;
+import linkedList.MyLinkedList;
+import linkedList.Node;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -20,6 +22,21 @@ public class Main {
 
         System.out.println(list.contains(3));
         System.out.println(list);
-        
+
+
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.add(1);
+        myLinkedList.add(2);
+        myLinkedList.add(3);
+
+        Node head = myLinkedList.getHead();
+        System.out.println(head);
+
+        System.out.println(head.getNext());
+        System.out.println(head.getNext().getNext());
+
+        Map<String, Integer> maps = new HashMap<>();
+        maps.put("SpiderMan", 1);
+
     }
 }

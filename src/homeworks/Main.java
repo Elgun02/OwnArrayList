@@ -42,5 +42,7 @@ public class Main {
         System.out.println();
         System.out.println(nodeA.size());
 
+        // Второе задание - самый короткий путь из Рейкявикы в Афины это = Reykjavik -> Oslo -> Berlin -> Rome -> Athens - 10
+
     }
 }

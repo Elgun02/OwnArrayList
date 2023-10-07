@@ -39,6 +39,7 @@ public class Main {
         nodeI.add(nodeK);
 
         nodeA.connectedNodes();
+        System.out.println();
         System.out.println(nodeA.size());
 
     }
